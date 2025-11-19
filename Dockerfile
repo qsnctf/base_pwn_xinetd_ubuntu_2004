@@ -45,7 +45,7 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.nju.edu.cn/' /etc/apt/sources.list \
     # clean
     && apt-get clean \
     # /var/lib/apt/lists/*
-    && rm -rf /tmp/* /var/tmp/* \
+    && rm -rf /tmp/* /var/tmp/*
 
 VOLUME /var/lib/tcpdump
 
